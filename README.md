@@ -2,6 +2,8 @@
 
 A simple, keyboard-controlled soundboard designed for teachers to use during classroom activities.
 
+Access the soundboard here: https://tobehh.github.io/teacher-soundboard/
+
 ## Features
 
 - 9 different classroom sounds mapped to keyboard keys 1-9
