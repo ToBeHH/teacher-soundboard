@@ -1,0 +1,16 @@
+{
+  "name": "teacher-soundboard",
+  "version": "1.0.0",
+  "description": "A soundboard for teachers with classroom sounds",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 4000",
+    "build": "echo 'No build step needed for static HTML'"
+  },
+  "keywords": ["soundboard", "teacher", "classroom", "audio"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

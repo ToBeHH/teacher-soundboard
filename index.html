@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Soundboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">    
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 Teacher Soundboard</h1>
+        <p class="instructions">Click buttons or press keys 1-9 to play sounds</p>
+        
+        <div class="soundboard">
+            <button class="sound-btn" data-key="1" data-sound="jeopardy">
+                <span class="key">1</span>
+                <span class="label">Jeopardy Theme</span>
+            </button>
+            
+            <button class="sound-btn" data-key="2" data-sound="applause">
+                <span class="key">2</span>
+                <span class="label">Applause</span>
+            </button>
+            
+            <button class="sound-btn" data-key="3" data-sound="correct">
+                <span class="key">3</span>
+                <span class="label">Correct Answer</span>
+            </button>
+            
+            <button class="sound-btn" data-key="4" data-sound="wrong">
+                <span class="key">4</span>
+                <span class="label">Wrong Answer</span>
+            </button>
+            
+            <button class="sound-btn" data-key="5" data-sound="drumroll">
+                <span class="key">5</span>
+                <span class="label">Drumroll</span>
+            </button>
+            
+            <button class="sound-btn" data-key="6" data-sound="bell">
+                <span class="key">6</span>
+                <span class="label">School Bell</span>
+            </button>
+            
+            <button class="sound-btn" data-key="7" data-sound="whistle">
+                <span class="key">7</span>
+                <span class="label">Whistle</span>
+            </button>
+            
+            <button class="sound-btn" data-key="8" data-sound="tada">
+                <span class="key">8</span>
+                <span class="label">Ta-da!</span>
+            </button>
+            
+            <button class="sound-btn" data-key="9" data-sound="timer">
+                <span class="key">9</span>
+                <span class="label">Timer Beep</span>
+            </button>
+        </div>
+        
+        <div class="controls">
+            <button id="stopAll" class="control-btn">Stop All Sounds</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
